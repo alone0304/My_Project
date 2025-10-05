@@ -1,57 +1,40 @@
 body{
     margin:0px;
-    background-color:rgb(114, 221, 192);
+    background-color:rgb(255, 247, 232);
     font-family:"微軟正黑體";
 }
-h1,h2{
+header{
     color:rgb(252, 238, 220);
     background-color:rgb(248, 174, 62);
     border:5px solid rgb(252, 238, 220);
     border-radius:20px;
-    margin:0px;
     font-weight:normal;
     font-style:italic;
     text-align:center;
+    font-size:15px;
 }
-#main-content{
-    margin:-100px 0px -50px 0px;
+article{
+    background-color:rgb(247, 226, 186);
+    font-size:20px;
+    margin:30px 50px;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:3px 3px 8px rgba(0,0,0,0.2);
+    text-indent:2em;
 }
 section{
-    background-color:rgb(247, 226, 186);
-    border-radius:20px;
-    margin:100px 40px 50px 40px;
-    font-size:20px;
-    box-shadow:3px 3px 8px rgba(0,0,0,0.2);
-}
-#main-content h3{
-    padding:10px;
-}
-#main-content p{
-    padding-left:20px;
-}
-span[class]{
-    padding-left:30px;
-}
-img{
-    float:right;
-    width:300px;
-}
-.img1{
-    margin:80px 50px 0px 0px;
-}
-img[class="img2"]{
-    margin:-25px 50px 0px 0px;
-}
-img[class="img3"]{
-    margin:60px 50px 0px 0px;
+    display:flex;
+    justify-content:center;
 }
 footer{
+    padding:5px;
+    position:relative;
     background-color:rgb(229, 218, 200);
 }
 section button{
     position:absolute;
-    right:80px;
-    margin-top:-60px;
+    right:100px;
+    margin-top:-15px;
     height:25px;
     border-radius:3px;
     cursor:pointer;
@@ -69,7 +52,6 @@ section>button:active{
 }
 footer p{
     text-align:right;
-    margin:-15px 0px -15px 0px;
 }
 footer p::selection{
     color:white;
