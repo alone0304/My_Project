@@ -21,6 +21,7 @@ article{
     border-radius:10px;
     box-shadow:3px 3px 8px rgba(0,0,0,0.2);
     text-indent:2em;
+    line-height:50px;
 }
 section{
     display:flex;
