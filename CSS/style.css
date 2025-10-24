@@ -1,5 +1,6 @@
 body{
     margin:0px;
+    padding:0%;
     background-color:rgb(114, 221, 192);
     font-family:"微軟正黑體";
 }
@@ -20,7 +21,7 @@ h1,h2{
 section{
     background-color:rgb(247, 226, 186);
     border-radius:20px;
-    margin:100px 40px 50px 40px;
+    margin:100px 45px 50px 45px;
     font-size:20px;
     box-shadow:3px 3px 8px rgba(0,0,0,0.2);
 }
@@ -35,16 +36,16 @@ span[class]{
 }
 img{
     float:right;
-    width:250px;
+    width:255px;
 }
 .img1{
-    margin:80px 50px 0px 0px;
+    margin:0px 46px 0px 0px;
 }
 img[class="img2"]{
-    margin:-25px 50px 0px 0px;
+    margin:0px 46px 0px 0px;
 }
 img[class="img3"]{
-    margin:60px 50px 0px 0px;
+    margin:60px 46px 0px 0px;
 }
 section button{
     position:relative;
